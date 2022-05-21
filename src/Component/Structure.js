@@ -33,6 +33,7 @@ const Structure = () => {
 
     const Goback = () => {
         setDisplay(true)
+        setHead("EMPLOYEE FEEDBACK FORM")
     }
 
     return (
