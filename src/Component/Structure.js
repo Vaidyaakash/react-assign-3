@@ -91,7 +91,7 @@ const Structure = () => {
                 </div>
             <span>
                 <button onClick={Goback} className="back__button">Go Back</button>
-            </span>: 
+            </span>
                 </div>
             }
         </>
