@@ -10,7 +10,6 @@ const Structure = () => {
 
     const [details, setDetails] = useState([]);
     const [display, setDisplay] = useState(true);
-    const [back, setBack] = useState(false);
     const [head, setHead] = useState("EMPLOYEE FEEDBACK FORM")
 
 
@@ -29,12 +28,12 @@ const Structure = () => {
         console.log(details);
         setHead("EMPLOYEE FEEDBACK LIST")
         setDisplay(false)
-        setBack(true)
         setData("")
     }
 
     const Goback = () => {
         setDisplay(true)
+        setHead("EMPLOYEE FEEDBACK FORM")
     }
 
     return (
